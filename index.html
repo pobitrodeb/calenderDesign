@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>grid</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <style>
+        body{
+            background-color: #f7f1e3 ;
+        }
+      .calender{
+          display: grid;
+          grid-template-columns: repeat(7,1fr);
+          grid-template-rows:2em repeat(7,1fr);
+        
+          grid-gap:14px 15px;
+      }
+      .day-name,.date{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 15px 5px;
+          color: white;
+          border: 1px solid royalblue;
+          font-size: 30px;
+          color: black;
+          border-radius: 7px 14px;
+          
+      }
+      #next-month{
+          background-color: #d2dae2;
+      }
+      .day-name{
+       background-color: #808e9b;
+
+      }
+      #date-bg{
+        background: #4e54c8;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+        padding: 14px 0px;
+       
+      }
+    </style>
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="container">
+        <h1 style="text-align: center; margin:15px;color: red;"> GRID, FLEXBox | Make Calender  </h1>
+      <div class="calender">
+          <div class="day-name" id="date-bg">S</div>
+          <div class="day-name" id="date-bg">M</div>
+          <div class="day-name" id="date-bg">T</div>
+          <div class="day-name" id="date-bg">W</div>
+          <div class="day-name" id="date-bg">T</div>
+          <div class="day-name" id="date-bg">F</div>
+          <div class="day-name" id="date-bg">S</div>
+         <div class="date" id="next-month">30</div>
+         <div class="date" id="next-month">31</div>
+          <div class="date">1</div>
+          <div class="date">2</div>
+          <div class="date">3</div>
+          <div class="date">4</div>
+          <div class="date">5</div>
+          <div class="date">6</div>
+          <div class="date">7</div>
+          <div class="date">8</div>
+          <div class="date">9</div>
+          <div class="date">10</div>
+          <div class="date">11</div>
+          <div class="date">12</div>
+          <div class="date">13</div>
+          <div class="date">14</div>
+          <div class="date">15</div>
+          <div class="date">16</div>
+          <div class="date">17</div>
+          <div class="date">18</div>
+          <div class="date">19</div>
+          <div class="date">20</div>
+          <div class="date">21</div>
+          <div class="date">22</div>
+          <div class="date">23</div>
+          <div class="date">24</div>
+          <div class="date">25</div>
+          <div class="date">26</div>
+          <div class="date">27</div>
+          <div class="date">28</div>
+          <div class="date">29</div>
+          <div class="date">30</div>
+          <div class="date"id="next-month">1</div>
+          <div class="date" id="next-month">2</div>
+          <div class="date" id="next-month"><p>&copy;pobitrodeb</p></div>
+      </div>
+            
+    </div>
+</div>
+    <!-- <script src="js/all.min.js" async defer></script>
+    <script src="js/bootstrap.min.js" async defer></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/owl.carousel.min.js">
+    </script>
+    <script src="js/main.js" type="text/javascript"></script> -->
+
+</body>
+
+</html>
